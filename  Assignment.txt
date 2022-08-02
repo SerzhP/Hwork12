@@ -1,0 +1,53 @@
+
+Class 12
+                                    DB -
+
+
+1. Create a table in your remote database named “dogs” with three
+columns all NN (not null):
+• VARCHAR (40) – name
+• INT – age
+• VARCHAR (30) – breed
+2. Insert 3 dogs with different values
+3. Update second dog age from one value to another
+4. Delete the third dog from table
+5. Query table and print all dogs names.
+**Once database was created on remote, creating the table and
+adding column can be done from MySQL workbench
+**Clauses 2-5 will be done from code.
+** What to send me?
+1. Table with values screenshot from MySQL workbench
+2. Code using JDBC
+Upload your homework code into a Github repository and provide the link
+
+
+                                        Rest API -
+
+
+1. Use the following countries API:
+https://restcountries.com
+ Ask a user to enter a country name (Using Scanner)
+ Print the following data:
+o Region
+o borders
+o symbol (inside currencies)
+ Stop the program If the user type exit
+** In case country does not exist ask the user to re-enter a country
+name.
+                                USD to ILS converter
+
+
+ Ask the user using “Scanner” for an amount (int) of dollars to
+convert to shekels.
+ Get USD to ILS conversion rate from any Currency API
+ Print:
+o “Welcome to currency converter”
+o “Please enter an amount of Dollars to convert”
+ Print the result (amount * currency).
+ Print: “Thanks for using our currency converter”.
+** Example:
+1. 1 Dollar equals to 3 Shelkels.
+2. User enter the number 5
+3. Print 15 (3 * 5)
+CHALLENGES: Use REST Assured for questions 1 + 2 (no need for
+user input).
