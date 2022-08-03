@@ -34,9 +34,12 @@ public class CountriesApi {
         JSONObject jsonObject = (JSONObject)jsonArray.get(0);
         String region = jsonObject.getString("region");
         JSONArray borders = jsonObject.getJSONArray("borders");
-//        String currency = jsonObject.getString("currency");
-//        JSONArray currency = jsonObject.getJSONArray("currency");
-        System.out.println(region + " " + borders + " " +currency);
+
+        JSONObject currencies = jsonObject.getJSONObject("currencies");
+        JSONObject currency = currencies.getJSONObject("EUR");
+        String symbol = currency.getString("symbol");
+        System.out.println(region + " " + borders + " " + symbol);
+
         chooseAgain();
     }
 
